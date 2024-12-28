@@ -1,1 +1,7 @@
+criar o executavel
 pyinstaller --onefile --name=hexcode .\hexcode.py
+
+inserir no path
+setx PATH "%PATH%;C:\hexcode"
+
+Obs.: A pasta hexcode deve ser criada e o arquivo deve ser inserido a ela
